@@ -102,22 +102,11 @@ python -m streamlit run app/ui/streamlit_app.py
 | Transform static spreadsheets into intelligent tools | Adds chat-driven analysis, recommendations, confirmations, managed execution, and management-ready workbook outputs. |
 | Work with management to identify inefficiencies | Generates reports/insights highlighting business impact (double counting risk, accountability gaps, timeline/reporting risks). |
 
-## Screenshots (Placeholder)
-Add screenshots/GIFs after publish:
-
-- `docs/screenshots/01-sidebar-and-upload.png`
-- `docs/screenshots/02-chat-analysis.png`
-- `docs/screenshots/03-action-plan-confirmation.png`
-- `docs/screenshots/04-output-workbook-download.png`
-
-Markdown placeholders:
-
-```md
+## Screenshots
 ![Sidebar and Upload](docs/screenshots/01-sidebar-and-upload.png)
 ![Chat Analysis](docs/screenshots/02-chat-analysis.png)
 ![Action Plan](docs/screenshots/03-action-plan-confirmation.png)
 ![Output Download](docs/screenshots/04-output-workbook-download.png)
-```
 
 ## Limitations
 - LLM responses depend on provider/model availability.
@@ -131,4 +120,3 @@ Markdown placeholders:
 - Role-based action templates (Ops/Finance/Sales)
 - Background jobs for heavy workbook processing
 - Telemetry/analytics for repeated inefficiency patterns
-
