@@ -1,0 +1,44 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets / local config
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Python/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Data generated at runtime
+data/uploads/
+data/uploaded/
+data/outputs/
+data/output/
+data/tmp/
+
+# Spreadsheet artifacts (keep safe examples only)
+*.xlsx
+*.xls
+*.csv
+!data/examples/
+!data/examples/**
+
+# IDE / OS noise
+.DS_Store
+.vscode/
+.idea/
+
+# Optional local artifacts
+*.zip
+*.log
+AI Spreadsheet Automation Assistant.pdf

@@ -1,0 +1,9 @@
+[project]
+name = "ai-spreadsheet-automation-assistant"
+version = "0.1.0"
+description = "Safe spreadsheet automation assistant demo"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
